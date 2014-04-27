@@ -12,6 +12,10 @@ The test kitchen config currently uses ubuntu 12.04.
 
 ## Usage
 
+### Test Kitchen
+
+The easiest way to built the infrastructure is to start test kitchen with `kitchen converge` and then `kitchen login default-ubuntu-1204`.
+
 ### codegolf::default
 
 Include `codegolf` in your node's `run_list`:
