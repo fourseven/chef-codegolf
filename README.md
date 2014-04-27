@@ -1,6 +1,6 @@
 # chef-codegolf
 
-This is a chef and test-kitchen wrapper around the codegolf source that Daniel Fone built for Railscamp NZ 2014. The original repository is [Here](https://github.com/danielfone/railscamp-codegolf).
+This is a chef and test-kitchen wrapper around the codegolf source that Daniel Fone built for Railscamp NZ 2014. The original repository is [here](https://github.com/danielfone/railscamp-codegolf).
 
 This currently installs rbenv, ruby 2.1.0, the required user and pulls in the other repo. It also links that to /vagrant/webapp and runs bundle install, and db migrations.
 
