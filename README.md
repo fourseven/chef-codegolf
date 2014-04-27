@@ -1,4 +1,4 @@
-# codegolf-cookbook
+# chef-codegolf
 
 This is a chef and test-kitchen wrapper around the codegolf source that Daniel Fone built for Railscamp NZ 2014. The original repository is [Here](https://github.com/danielfone/railscamp-codegolf).
 
