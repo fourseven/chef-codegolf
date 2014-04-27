@@ -1,0 +1,19 @@
+---
+driver:
+  name: vagrant
+  network:
+  - ["public_network", {bridge: "en1: Wi-Fi (AirPort)"}]
+
+
+provisioner:
+  name: chef_solo
+
+platforms:
+  - name: ubuntu-12.04
+  # - name: centos-6.4
+
+suites:
+  - name: default
+    run_list:
+      - recipe[codegolf::default]
+    attributes:
