@@ -1,27 +1,14 @@
 # codegolf-cookbook
 
-TODO: Enter the cookbook description here.
+This is a chef and test-kitchen wrapper around the codegolf source that Daniel Fone built for Railscamp NZ 2014. The original repository is [Here](https://github.com/danielfone/railscamp-codegolf).
+
+This currently installs rbenv, ruby 2.1.0, the required user and pulls in the other repo. It also links that to /vagrant/webapp and runs bundle install, and db migrations.
+
+There are further commands (yet) to automate, which are referenced in the original repo.
 
 ## Supported Platforms
 
-TODO: List your supported platforms.
-
-## Attributes
-
-<table>
-  <tr>
-    <th>Key</th>
-    <th>Type</th>
-    <th>Description</th>
-    <th>Default</th>
-  </tr>
-  <tr>
-    <td><tt>['codegolf']['bacon']</tt></td>
-    <td>Boolean</td>
-    <td>whether to include bacon</td>
-    <td><tt>true</tt></td>
-  </tr>
-</table>
+The test kitchen config currently uses ubuntu 12.04.
 
 ## Usage
 
@@ -37,6 +24,8 @@ Include `codegolf` in your node's `run_list`:
 }
 ```
 
+This should do all of the work for you.
+
 ## Contributing
 
 1. Fork the repository on Github
@@ -48,4 +37,4 @@ Include `codegolf` in your node's `run_list`:
 
 ## License and Authors
 
-Author:: YOUR_NAME (<YOUR_EMAIL>)
+Author:: Mathew Hartley (<matt@route66.sytes.net>)
